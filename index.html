@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Movie Search - Search from popular movies database</title>
+    <meta
+      name="description"
+      content="Movie search helps you in searching movies from popular movies database."
+    />
+    <meta
+      name="keywords"
+      content="movies, popular movies, movie database, movie mania"
+    />
+    <meta name="author" content="Aditi Mahajan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><i class="fa fa-video-camera" aria-hidden="true"></i> Movie Mania</h1>
+      <div class="search-block">
+        <div class="btn">
+          <i class="i fa fa-search"></i>
+        </div>
+        <input
+          type="text"
+          id="filterInput"
+          class="txt"
+          placeholder="search..."
+        />
+      </div>
+      <div style="padding-bottom: 50px">
+        <select class="sort-by" name="sort">
+          <option value="">sort by</option>
+          <option value="title">Title</option>
+          <option value="rating">Rating</option>
+          <option value="date">Latest</option>
+        </select>
+      </div>
+    </header>
+
+    <section class="main--container">Loading...</section>
+    <script src="app.js"></script>
+  </body>
+</html>
