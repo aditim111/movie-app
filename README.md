@@ -2,7 +2,7 @@
 
 Movie app helps in searching your next favorite movie.
 
-[View Demo]()
+[View Demo](https://angry-curran-2932a1.netlify.app)
 
 ## Installation
 
